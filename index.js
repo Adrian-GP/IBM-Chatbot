@@ -1,5 +1,6 @@
 // index.js
 require('dotenv').config();
+
 const express = require('express');
 
 const  bodyParser = require('body-parser'),
@@ -17,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use(bodyParser.json(bodyParserJsonConfig()));
 
-app.get('/', (req, res) => res.send('Hola Greg!'))
+app.get('/', (req, res) => res.send('Node.JS with PostgreSQL and IBM Chatbot'))
 app.post('/ask', ask)
 app.get('/api/session', initialize);
 
