@@ -1,5 +1,6 @@
 # IBM Chatbot
 
+
 Este proyecto requiere tener NodeJS instalado, así como npm.
 
 
@@ -11,9 +12,14 @@ Primero hay que clonar el repositorio a una carpeta local dentro de la computado
 
 ### Herramientas utilizadas
 - NodeJS
+![NodeJS](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg)
+
 - PostgreSQL
+![PostgreSQL](https://hoplasoftware.com/wp-content/uploads/2017/10/Dise%C3%B1o-sin-t%C3%ADtulo-64.png)
+
 - IBM Watson Discovery
 - IBM Watson Assistant
+![IBM Watson](https://miro.medium.com/max/1000/1*_DLnG2N1ay1knnwSG7vePA.jpeg)
 
 ### Para utilizarlo correctamente.
 Para utilizar correctamente el proyecto primero se tiene que crear una base de datos en PostgreSQL y sustituir los datos del Pool a los datos de la nueva base de datos creada.
